@@ -1,8 +1,8 @@
-//import stuff here
 import java.util.Scanner;
-//Your code here
+
 public class Program7 {
-    public static void main(String[]args){
+  public static void main(String args[]) {
+
         final double klevin_schruteBuck = 1.0 / 20.0;
         final double stanleyNickel_klevin = 1.0 / 12.0;
         final double stanleyNickel_schruteBuck = stanleyNickel_klevin * klevin_schruteBuck;
@@ -17,17 +17,10 @@ public class Program7 {
         System.out.println("Enter stanley-nickels: ");
         int stanleyNickels = Scanner.nextInt();
 
-        double decimalSchruteBucks = schruteBucks + (klevins * klevin_schruteBucks) + (stanleyNickels * stanleyNickel_schruteBuck);
+        double decimalSchruteBucks = schruteBucks + (klevins * klevin_schruteBuck) + (stanleyNickels * stanleyNickel_schruteBuck);
        
-        System.out.println("Decimal schrute-bucks = $%.2f%n", decimalSchruteBucks);
+        System.out.printf("Decimal schrute-bucks = $%.2f%n", decimalSchruteBucks);
 
-        scanner.close();
-    }
+        Scanner.close();
+  }
 }
-       
-
-//Paste console output below:
-/*
-
-
-*/
