@@ -23,9 +23,9 @@ public class Program7 {
         System.out.println("Enter stanley-nickels: ");
         stanleyNickels = numScanner.nextDouble();
     
-       kelvinNickel = kelvin * 12;
-       kelvinNickel = stanleyNickel + kelvinNickel
-       kelvinNickel = 100 / kelvinNickel
+        kelvinNickel = kelvin * 12;
+        kelvinNickel = stanleyNickel + kelvinNickel
+        kelvinNickel = 100 / kelvinNickel
        
         System.out.println("Decimal schrute-bucks = $" schruteBucks + "." + kelvinNickel);
     }
