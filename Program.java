@@ -3,31 +3,25 @@ import java.util.Scanner;
 //Your code here
 public class Program7 {
     public static void main(String[]args){
-        //20 klevins = schrute-buck
-        //12 stanley-nickels = klevin
+        final double klevin_schruteBuck = 1.0 / 20.0;
+        final double stanleyNickel_klevin = 1.0 / 12.0;
+        final double stanleyNickel_schruteBuck = stanleyNickel_klevin * klevin_schruteBuck;
        
-        //100 stanley-nickels = schrute-buck
-        int schruteBucks;
-        int klevins;
-        int stanleyNickels;
-       
-        Scanner numScanner = new Scanner(System.in);
+        Scanner Scanner = new Scanner(System.in);
         System.out.println("Enter schrute-bucks: ");
-        schruteBucks = numScanner.nextDouble();
+        int schruteBucks = Scanner.nextInt();
         
-        Scanner numScanner = new Scanner(System.in);
         System.out.println("Enter klevins: ");
-        klevins = numScanner.nextDouble();
+        int klevins = Scanner.nextInt();
         
-        Scanner numScanner = new Scanner(System.in);
         System.out.println("Enter stanley-nickels: ");
-        stanleyNickels = numScanner.nextDouble();
-    
-        kelvinNickel = kelvin * 12;
-        kelvinNickel = stanleyNickel + kelvinNickel
-        kelvinNickel = 100 / kelvinNickel
+        int stanleyNickels = Scanner.nextInt();
+
+        double decimalSchruteBucks = schruteBucks + (klevins * klevin_schruteBucks) + (stanleyNickels * stanleyNickel_schruteBuck);
        
-        System.out.println("Decimal schrute-bucks = $" schruteBucks + "." + kelvinNickel);
+        System.out.println("Decimal schrute-bucks = $%.2f%n", decimalSchruteBucks);
+
+        scanner.close();
     }
 }
        
