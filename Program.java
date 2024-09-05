@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Program7 {
   public static void main(String args[]) {
 
-        final double klevin_schruteBuck = 1.0 / 20.0;
-        final double stanleyNickel_klevin = 1.0 / 12.0;
-        final double stanleyNickel_schruteBuck = stanleyNickel_klevin * klevin_schruteBuck;
+        double klevin_schruteBuck = 1.0 / 20.0;
+        double stanleyNickel_klevin = 1.0 / 12.0;
+        double stanleyNickel_schruteBuck = stanleyNickel_klevin * klevin_schruteBuck;
        
         Scanner Scanner = new Scanner(System.in);
         System.out.println("Enter schrute-bucks: ");
