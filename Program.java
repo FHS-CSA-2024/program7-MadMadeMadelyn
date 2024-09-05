@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class Program7{
 	//Define your final variables here
 	// **HINT: Maybe the conversion rates?????**
-	  private double klevin_schruteBuck = 1.0 / 20.0;
-    private double stanleyNickel_klevin = 1.0 / 12.0;
-    private double stanleyNickel_schruteBuck = stanleyNickel_klevin * klevin_schruteBuck;
+	private double klevin_schruteBuck = 1.0 / 20.0;
+	private double stanleyNickel_klevin = 1.0 / 12.0;
+	private double stanleyNickel_schruteBuck = stanleyNickel_klevin * klevin_schruteBuck;
 	
 	public static void main(String[] args){
 		//Make you own test code here
-		  Program7 tester = new Program7();
+		Program7 tester = new Program7();
 
-		  double myTestVal = 0.0;
+		double myTestVal = 0.0;
 
 	  	Scanner Scanner = new Scanner(System.in);
 	        System.out.println("Enter schrute-bucks: ");
