@@ -31,13 +31,9 @@ public class Program7{
         	Scanner.close();
 	}
 	
-	
-	
 	public double convertMoney(int schruteBucks, int stanleyNickels, int klevins){
 		//implement a function that converts from the old format to the new format
 		double decimalSchruteBucks = schruteBucks + (klevins * klevin_schruteBuck) + (stanleyNickels * stanleyNickel_schruteBuck);
 		return decimalSchruteBucks;
 	}
-	
-	
 }
